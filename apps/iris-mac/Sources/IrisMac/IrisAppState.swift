@@ -4,8 +4,8 @@ import AppKit
 @MainActor
 @Observable
 final class IrisAppState {
-    static let releaseAPIURL = URL(string: "https://api.github.com/repos/companion-inc/iris/releases/latest")!
-    static let releaseDownloadsURL = URL(string: "https://github.com/companion-inc/iris/releases/latest")!
+    static let releaseAPIURL = URL(string: "https://api.github.com/repos/advaitpaliwal/iris/releases/latest")!
+    static let releaseDownloadsURL = URL(string: "https://github.com/advaitpaliwal/iris/releases/latest")!
 
     var selectedTab: IrisTab = .home
     var apiHealth = HealthStatus(ok: false, service: "iris-api")
